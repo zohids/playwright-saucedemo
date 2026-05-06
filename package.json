@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "lint": "eslint ."
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -15,6 +17,7 @@
     "@typescript-eslint/parser": "^8.59.2",
     "eslint": "^9.39.4",
     "globals": "^17.6.0",
+    "jiti": "^2.7.0",
     "typescript-eslint": "^8.59.2"
   }
 }
